@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegisterPeopleManagement.Infra.Data\RegisterPeopleManagement.Infra.Data.csproj" />
+    <ProjectReference Include="..\RegisterPeopleManagement.Infra.Interface\RegisterPeopleManagement.Infra.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
